@@ -1,0 +1,23 @@
+{
+  "name": "load_tests",
+  "version": "1.0.0",
+  "description": "Este repositório tem como objetivo permitir a realização de testes de carga utilizando a ferramenta de testes k6.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesllyramiro/LoadTestsK6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesllyramiro/LoadTestsK6/issues"
+  },
+  "homepage": "https://github.com/wesllyramiro/LoadTestsK6#readme",
+  "devDependencies": {
+    "@types/k6": "^0.32.2"
+  }
+}

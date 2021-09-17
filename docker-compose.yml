@@ -1,0 +1,15 @@
+version: '3.4'
+
+networks:
+  k6:
+  grafana:
+
+services:
+  k6:
+    image: loadimpact/k6:latest
+    networks:
+      - k6
+    ports:
+      - "6565:6565"
+    volumes:
+      - ./test:/scripts
